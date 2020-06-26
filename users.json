@@ -1,0 +1,18 @@
+{
+  "users": [
+    {
+      "lastname": "VASNITSKAIA",
+      "ticket": "UH68ZM"
+    },
+    {
+      "lastname": "BEDAK",
+      "ticket": "UID4AM"
+    }
+  ],
+  "done": [
+    {
+      "lastname": "BEDAK",
+      "ticket": "UID4AM"
+    }
+  ]
+}
