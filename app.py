@@ -7,6 +7,8 @@ from time import sleep
 from threading import Thread
 import json
 import requests
+from flask import Flask
+import os
 
 driver_path = 'phantomjs'
 
@@ -297,3 +299,6 @@ if __name__ == '__main__':
     thr_long_poll.start()
     thr_sine = Thread(target=not_sine)
     thr_sine.start()
+    port = os.environ.get('PORT', 5000)
+    app = Flask(__name__)
+    app.run(host='0.0.0.0', port=port)
